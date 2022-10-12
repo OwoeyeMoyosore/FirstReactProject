@@ -18,7 +18,7 @@ function App() {
       </Row>
       <Row className="mt-6 mx-7 ms-lg-5 me-0">
         <Col lg={2} md={2} sm={12} className={"mt-sm-5"}>
-          <h1 className='orange fw-700 ms-lg-5 fs-sm-5'>01</h1>
+          <h1 className='orange fw-700 ms-5 fs-sm-5'>01</h1>
         </Col>
         <Col lg={10} md={10} sm={12} className="mt-sm-5 ps-5">
           <h1 className='black'>About Our Studio</h1>
@@ -26,12 +26,12 @@ function App() {
         </Col>
 
       </Row>
-      <Row  className="mx-7 mt-5 pb-3 w-80 ms-lg-5 me-0">
+      <Row  className="mt-5 pb-3 ms-lg-5 me-0">
        
-        <Col lg={6} sm={12} md={6}>
+        <Col sm={12} md={6}>
           <p className='ms-lg-5 ms-4 par2 fw-400'>We are the custom web design company in USA that offers inspiring web design services with soothing colors, awesome visuals, a user-friendly layout, comfortable and pleasant user experience that will elongate users' stay while encouraging them for repeated visits.</p>
         </Col>
-        <Col lg={6} sm={12} md={6} className="mb-5">
+        <Col sm={12} md={6} className="mb-5 mx-2 mx-md-0">
           <div className="round fs-5 my-xs-5 mx-xs-4 lh-lg bg-white w-90 me-4 w-md-100 w-sm-100 py-3 px-4">
           <p className=''><span className='fw-700'>01.</span> Web Design<br  />
               <span className='fw-700'>02. </span>Development <br  />
