@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .first-col{
+  background-image: url("./assets/img/firstpic.png");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+} */
+.orange{
+  font-size: 6rem;
+  color: rgb(236,87,17);
+  text-align: left;
+  font-family: Oswald, sans-serif !important;;
+ 
+}
+.black{
+  font-size: 3.75rem;
+  font-family: Raleway,sans-serif;
+  font-weight: 700;
+}
+.my-link{
+ 
+  text-decoration: underline 1px black;
+  color: black;
+}
+.my-link:hover{
+  text-decoration: underline 1px orange;
+  color: black;
+}
+.firstpic{
+
+  margin-top: 20px;
+  width: 90%;
+
+  object-fit: contain;
+  
+}
